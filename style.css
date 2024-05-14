@@ -1,0 +1,57 @@
+.contenedor{
+
+display:grid;
+grid-template-columns: 1fr;
+grid-template-rows: repeat(9, 300px);
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.uno{
+    background-color: blueviolet;
+}
+.dos{
+    background-color: aqua;
+}
+.tres{
+    background-color: chocolate;
+}
+.cuatro{
+    background-color: blue;
+}
+.cinco{
+    background-color: crimson;
+}
+.seis{
+    background-color: darkolivegreen;
+}
+.siete{
+    background-color: greenyellow;
+}
+.ocho{
+    background-color: darkred;
+}
+.nueve{
+    background-color: indigo;
+}
+@media (min-width:321px) and (max-width:768){
+    .contenedor{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        .contenedor{
+            .contenedor{
+                display: grid;
+                grid-template-columns: 1fr 1fr; 
+         grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width:321px)  
+    .contenedor{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        .contenedor{
+            .contenedor{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr 1fr;
+}
